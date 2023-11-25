@@ -1,0 +1,25 @@
+.__hamburger_menu {
+    min-width: 5%;
+    min-height: 5%;
+    max-width: 5%;
+    max-height: 5%;
+
+    transform: rotate(-45deg);
+
+}
+
+.__menuItem {
+    text-decoration: none;
+    min-width: 2%;
+    min-height: 2%;
+    max-width: 2%;
+    max-height: 2%;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.__menuItem:hover {
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}

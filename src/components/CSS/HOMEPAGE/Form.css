@@ -1,8 +1,14 @@
 .__login_form{
-    background-color: #9d7f7a;
+    background-color: #D8D1BD;
     max-width: 30%;
     min-width:30%;
     height:100%;
     padding: 10vh;
     margin: 10vh;
+}
+
+.__comment_submit {
+
+    background-color: #60212E;
+    color : rgb(238, 236, 236);
 }

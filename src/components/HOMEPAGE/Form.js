@@ -15,7 +15,7 @@ const Form = () => {
           <label for="exampleInputEmail1" class="form-label">Comments</label>
           <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
-        <button type="submit" class="btn btn-danger min-vw-25">Surrender!</button>
+        <button type="submit" class="btn min-vw-25 __comment_submit">Surrender!</button>
       </form>
     </>
   )

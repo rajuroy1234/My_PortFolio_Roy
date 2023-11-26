@@ -1,25 +1,75 @@
-.__hamburger_menu {
-    min-width: 5%;
-    min-height: 5%;
-    max-width: 5%;
-    max-height: 5%;
-
-    transform: rotate(-45deg);
+.__menu {
+    background-color: #d8d1bd;
+    width: 10vh;
+    padding-top: 4vh;
 
 }
 
-.__menuItem {
-    text-decoration: none;
+.__wholeHam {
+    background-image: url("../../../../public/images/mountain.jpg");
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+
+.__hamburger_menu {
     min-width: 2%;
     min-height: 2%;
     max-width: 2%;
     max-height: 2%;
 
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin: 0vh 2vh 2vh 3vh;
+}
+.__hamburger_menu:hover {
+    transform: rotate(90deg);
+    transition: transform .7s ease;
 }
 
+td i {
+    text-align:center;
+}
+
+.__menuItem {
+    max-width: 2%;
+    max-height: 35%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+}
 .__menuItem:hover {
     transform: scale(1.5);
     transition: transform .5s ease;
 }
+
+.__onHover_MenuName { 
+    display: none;
+}
+
+/* Hover Menu */
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #ee9e53;
+    color: #111;
+    font-size: 100%;
+    position: absolute;
+    padding: 1px 5px 2px 5px;
+    margin-left: 10px;
+    bottom: -1.6em;
+    border-radius: 5px;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
+}
+/* ---------------*/

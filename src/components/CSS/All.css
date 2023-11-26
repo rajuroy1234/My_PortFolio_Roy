@@ -1,10 +1,26 @@
 body {
-    background-color:  #f1e9e0;
+    background-color:  #F4F2EF;
     padding: 0px;
     margin:0px;
-    font-family: "Montserrat";    
+    font-family: Saol,Georgia,Cambria,"Times New Roman",Times,serif;
+    height: 100%;   
 }
+
 
 ul {
     list-style-type: none;
-}
+    transition: width 300ms ease;
+  }
+  
+  li {
+    width: 83rem;
+    margin-left: -8vh;
+
+  }
+  
+  li a {
+ 
+  }
+  
+  li a:hover {
+  }

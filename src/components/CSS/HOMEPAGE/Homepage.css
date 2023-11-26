@@ -1,0 +1,37 @@
+.__homepage {
+  
+}
+
+.__navbar_header {
+}
+
+.__NAV {
+    display: flex;
+    background-color: #e0ddd5;
+    padding-top: 2vh;
+}
+
+.__headername{
+    right: 45%;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font:  "Montserrat";
+}
+.__headername:hover {
+    color: #33312d;
+}
+
+.__myWorld {
+    right: 2%;
+    max-width: 5vh;
+    min-width: 3vh;
+}
+.__myWorld:hover {
+    transform: rotate(360deg);
+    transition: transform 6s ease;
+}
+
+.__myWorld_image {
+    width: 5vh;
+}

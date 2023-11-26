@@ -5,10 +5,14 @@
     height:100%;
     padding: 10vh;
     margin: 10vh;
+    position: relative;
+    right: -62%;
+
 }
 
-.__comment_submit {
-
-    background-color: #60212E;
-    color : rgb(238, 236, 236);
+#comment {
+    max-width: 47vh;
+    min-width: 47vh;
+    min-height: 24vh;
+    max-height: 24vh;
 }

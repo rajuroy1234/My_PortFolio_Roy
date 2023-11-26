@@ -1,5 +1,4 @@
 .__homepage {
-  
 }
 
 .__navbar_header {
@@ -34,4 +33,14 @@
 
 .__myWorld_image {
     width: 5vh;
+}
+
+.__download_Resume {
+    right: 7%;
+    max-width: 5vh;
+    min-width: 3vh;
+}
+.__download_Resume:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import "../CSS/HOMEPAGE/Homepage.css";
+import "../CSS/HOMEPAGE/Menu.css"
 import Form from './Form';
 import SnowFlakes from './SnowFlakes';
 import Resume from './Resume';
